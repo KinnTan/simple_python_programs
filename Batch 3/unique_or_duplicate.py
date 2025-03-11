@@ -6,5 +6,6 @@ while True:
     if numbers not in number_list:
         number_list.append(numbers)
         print("Unique")
-
+    elif numbers in number_list:
+        print("Duplicate")
 
