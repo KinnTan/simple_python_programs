@@ -2,6 +2,9 @@
 
 number_list = []
 while True:
-    number = int(input("Enter a number: "))
-    number_list.append(number)
+    try:
+        number = int(input("Enter a number: "))
+        number_list.append(number)
 
+    except ValueError:
+        break
