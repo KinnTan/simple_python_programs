@@ -7,4 +7,5 @@ while True:
         number_list.append(number)
 
     except ValueError:
+        print(min(number_list))
         break
