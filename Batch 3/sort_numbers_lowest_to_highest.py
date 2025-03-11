@@ -7,4 +7,7 @@ while True:
         number_list.append(number)
 
     except ValueError:
+        number_list.sort()
+        print("Invalid number entered. The sorted list is:")
+        print(number_list)
         break
