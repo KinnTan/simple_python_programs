@@ -7,5 +7,6 @@ while True:
         number_list.append(number)
 
     except ValueError:
-        print(min(number_list))
+        print("invalid number")
+        print("the lowest number was", min(number_list))
         break
