@@ -2,7 +2,12 @@
 
 number_list = []
 while True:
-    numbers = int(input())
+    try:
+        numbers = int(input())
+    except ValueError:
+        print("invalid number, exiting...")
+        break
+
     if numbers not in number_list:
         number_list.append(numbers)
         print("Unique")
