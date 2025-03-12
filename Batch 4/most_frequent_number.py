@@ -14,4 +14,6 @@ while True:
 if number_counter:
     most_frequent = max(number_counter, key=number_counter.get)
     print("The number with the most duplicates is:", most_frequent)
+else:
+    print("No numbers were entered.")
 
