@@ -4,7 +4,7 @@ duplicate = []
 number_list = []
 
 for i in range(1,11):
-    numbers = int(input())
+    numbers = int(input("Enter a number: "))
     if numbers in number_list:
         if numbers not in duplicate:
             duplicate.append(numbers)
@@ -12,5 +12,5 @@ for i in range(1,11):
     else:
         number_list.append(numbers)
 
-print(duplicate)
+print("Duplicates:", duplicate)
 
