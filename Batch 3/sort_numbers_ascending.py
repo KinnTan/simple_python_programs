@@ -8,6 +8,7 @@ while True:
 
     except ValueError:
         number_list.sort()
-        print("Invalid number entered. The sorted list is:")
+        print("Invalid number entered.")
+        print("The sorted list from lowest to highest is:")
         print(number_list)
         break
