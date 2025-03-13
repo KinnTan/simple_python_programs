@@ -9,4 +9,7 @@ while True:
         break
     number_list.append(number)
 
-print("The highest number entered is:", max(number_list))
+if number_list:
+    print("The highest number entered is:", max(number_list))
+else:
+    print("No numbers entered")
