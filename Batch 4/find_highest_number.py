@@ -4,9 +4,9 @@ number_list = []
 
 while True:
     try:
-        number = int(input("Enter numbers: "))
+        number = int(input("Enter a number: "))
     except ValueError:
         break
     number_list.append(number)
 
-print(max(number_list))
+print("The highest number entered is:", max(number_list))
